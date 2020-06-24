@@ -1,0 +1,20 @@
+ext{
+
+    def constraintLayoutVersion = '1.1.3'
+
+    def appCompatVersion = '1.1.0'
+
+    def materialVersion = '1.0.0'
+
+    def arcViewVersion = '1.4.5'
+
+    def imageCircleView = '3.1.0'
+
+    presentationDependencies = [
+            constraintLayout : "androidx.constraintlayout:constraintlayout:$constraintLayoutVersion",
+            appCompat : "androidx.appcompat:appcompat:$appCompatVersion",
+            material : "com.google.android.material:material:$materialVersion",
+            arcView: "com.github.florent37:shapeofview:$arcViewVersion",
+            imageCircleView: "de.hdodenhof:circleimageview:$imageCircleView"
+    ]
+}
